@@ -1,0 +1,81 @@
+*{
+  --background-color: #d7eb02;
+  --text-color: #000000;
+  --image-border-radius: 50%;
+  --image-width: 150px;
+  --image-height: 150px;
+  --margin: 10px;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: Arial, sans-serif;
+  /* 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  */
+  height: 100vh;
+  margin: 0;
+}
+
+header {
+  background-color: #293949;
+  color: rgb(255, 244, 244);
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.profesores{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 1em;
+}
+.team{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 1em;
+}
+
+.miembro {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 200px;
+}
+
+.miembro img {
+  width: var(--image-width);
+  height: var(--image-height);
+  margin: 0 auto var(--margin);
+
+  display: block;
+}
+
+.miembro h3 {
+  color: var(--text-color);
+  font-size: 1.2em;
+}
+
+.miembro p {
+  color: var(--text-color);
+}
+
+h1{
+  text-align: justify;
+  font-size: 60px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  color: rgb(255, 255, 255); 
+  
+
+}
